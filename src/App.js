@@ -54,7 +54,9 @@ class App extends Component {
           <Grid item xs={12} sm={10} md={10} lg={8}>
             <Paper className={classes.paper}>Для вас это будет незначительная сумма, а для меня - еще один шаг навстречу мечте.</Paper>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={4}>
+          <Grid item xs={12} sm={12} md={12} lg={12}>
+          </Grid>
+          <Grid item xs={12} sm={10} md={4} lg={4}>
             <Paper className={classes.paper}>
               <iframe 
                 src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=%D0%9D%D0%B0%20%D0%BC%D0%B5%D1%87%D1%82%D1%83!&targets-hint=&default-sum=10&button-text=11&payment-type-choice=on&hint=&successURL=https%3A%2F%2Fmydreamt.ru%2Fthanks.html&quickpay=shop&account=410011268431176" 
@@ -65,6 +67,8 @@ class App extends Component {
                 scrolling="no"
               ></iframe>
             </Paper>
+          </Grid>
+          <Grid item xs={12} sm={12} md={12} lg={12}>
           </Grid>
           <Grid item xs={12} sm={10} md={10} lg={8}>
             <Paper className={classes.paper}>Я ВЕРЮ, что все добро возвращается, и я помогу сбыться вашей мечте, ведь так случалось уже не раз!</Paper>
